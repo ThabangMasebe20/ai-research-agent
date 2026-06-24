@@ -10,7 +10,7 @@ The agent can search the web, query Wikipedia, and save research results to a te
 - Structured responses using Pydantic
 
 ## Tech Stack
-- Python 3.x
+- Python 3.13.2
 - LangChain / LangGraph
 - Anthropic Claude (claude-3-5-sonnet-20241022)
 - DuckDuckGo Search
@@ -56,7 +56,7 @@ ai-research-agent/
 
 **2. .env.example**
 ```
-ANTHROPIC_API_KEY=your_api_key_here
+ANTHROPIC_API_KEY=api_key
 ```
 
 ---
